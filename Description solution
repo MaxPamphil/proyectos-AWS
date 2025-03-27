@@ -1,0 +1,23 @@
+Description of the solution applied from the AWS management console.
+a--
+Register 3 VPCs and 3 instances in Amazon EC2, one for each of the pet store servers.
+
+b--
+Activate a VPC and an instance in EFS by making the most appropriate configuration.
+Create a security group that ensures that communication will only occur with the 3 servers of the 3 stores.
+
+c--
+On one of the instances EC2 in one of the availability zones, make a peer-to-peer connection to the EFS instance.
+
+d--
+Then make the connection from EFS to the EC2 instance
+
+e--
+Perform the same process with each of the servers in the other availability zones
+
+note:
+The connection will always be between each of the store server instances and the EFS instance in the cloud, never directly between the servers.
+
+business opportunity:
+With files centralized in a cloud instance, the opportunity opens up to offer online services for selling products to pet owners. Similarly, 
+web-based services such as scheduling appointments and issuing promotions, for example, can be offered.
